@@ -8,7 +8,6 @@ function NewExpenses({ onAddExpense }) {
       ...Data,
       id: Math.floor(Math.random()).toString(),
     };
-    console.log(expenseData);
     onAddExpense(expenseData);
   };
 
