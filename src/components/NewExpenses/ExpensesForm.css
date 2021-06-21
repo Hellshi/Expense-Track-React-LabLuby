@@ -4,6 +4,19 @@
   gap: 1rem;
   margin-bottom: 1rem;
   text-align: left;
+  display: none;
+}
+
+.selected {
+  display: flex;
+}
+
+.button-selected {
+  display: none;
+}
+
+.button-unselected {
+  display: unset;
 }
 
 .new-expense__control label {
