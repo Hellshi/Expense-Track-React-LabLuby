@@ -24,7 +24,7 @@ function ExpensesForm({ onSaveData }) {
     e.preventDefault();
     const newExpense = {
       title: title,
-      amount: amount,
+      amount: +amount,
       Date: new Date(date),
     };
     onSaveData(newExpense);

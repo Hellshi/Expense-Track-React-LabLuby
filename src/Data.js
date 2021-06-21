@@ -11,7 +11,7 @@ function Data() {
       id: "2",
       title: "Stardew Valley",
       amount: 28,
-      Date: new Date(2021, 8, 20),
+      Date: new Date(2021, 7, 20),
     },
 
     {
